@@ -1,0 +1,10 @@
+[package]
+name = "rsa_encryption_scheme"
+version = "0.1.0"
+authors = ["Howard Huang <howeih@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+num-bigint = "0.2"
+rand = "0.6.5"
+sha2 = "0.8.0"
