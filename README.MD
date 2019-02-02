@@ -5,7 +5,7 @@ I have large prime numbers and know how to generate RSA keys and how to use them
 One more tool is needed, though, a strong pseudo-random generator. I will use SHA-512. It is a secure hash function, and to be secure it has to comply some special demands. Among others, it has to be a secure PRG.
 <br>
 My recipe is inspired by RSA OAEP, which is used in practice.
-![Alt text]("rsa.png")
+![Alt text](rsa.png?raw=true "RSA")
 <br>
 Assuming I have two 1024-bit primes, 2048-bit modulus, random generator and SHA-512, I can transfer up to 192-byte message.
 <br>
